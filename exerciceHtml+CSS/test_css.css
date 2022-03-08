@@ -1,0 +1,26 @@
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+td, th {
+    border: 1px solid black;
+    vertical-align: middle;
+    
+
+}
+.backgroudBlue {
+    background-color: aqua;
+}
+.backggrey {
+    background-color: grey;
+}
