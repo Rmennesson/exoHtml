@@ -1,3 +1,10 @@
+.margin50 {
+    margin: 50px;
+}
+div {
+    background-color: darkslateblue;
+
+}
 .bold {
     font-weight: bold;
 }
@@ -35,4 +42,7 @@ td, th {
 }
 .center {
     text-align: center;
+}
+.padding50 {
+    padding: 50px;
 }

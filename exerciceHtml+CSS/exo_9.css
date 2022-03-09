@@ -1,0 +1,17 @@
+h2 {
+    font-weight: bold;
+    font-family: arial;
+    background-color: aliceblue;
+    background-size: contain;
+}
+.div1 {
+    background-color: rgb(180, 178, 178);
+}
+
+.div2 {
+    background-color: gray;
+}
+
+.div3 {
+    background-color: rgb(48, 46, 46);
+}
