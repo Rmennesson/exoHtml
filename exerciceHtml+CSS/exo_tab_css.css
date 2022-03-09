@@ -15,15 +15,13 @@ div {
 
 table{
     border-collapse: collapse;
-    
-   
 }
 
 td, th {
     border: 1px solid black;
     vertical-align: middle;
     text-align: center;
-    column-width: 150px;
+    width: 150px;
     
 
 }

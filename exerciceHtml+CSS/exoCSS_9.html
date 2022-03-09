@@ -9,26 +9,29 @@
 </head>
 <body>
     <h1>Exercice 9</h1>
-        <div>
-            <h2>Votre identité</h2>
-            <ul>
-                <li>Nom : </li>
-                <li>Prénom : </li>
-                <li>Mail : </li>
-            </ul>
-        </div>
-        <div>
-            <h2>Êtes vous adhérent ?</h2>
-            <p>Oui   Non     </p>
-        </div>
-        <div>
-            <h2>Votre message</h2>
-            <ol>
-                <li>Objet du message</li>
-                <li>Votre message</li>
+        <form>
+            <fieldset class="div1">
+                <legend>Votre identité</legend>
+                <ul>
+                    <li><label>Nom : </label><input type="text" placeholder="Ex: Dupont"> </input> </li><br>
+                    <li><label>Prénom : </label><input type="text" placeholder="Ex: Arnaud"> </input></li><br>
+                    <li><label>Adresse mail : </label><input type="text" placeholder="Ex: adup@gmail.com"> </input></li><br>
+                </ul>
+            </fieldset>
+            <fieldset class="div2">
+                <legend>Êtes vous adhérent ?</legend>
+                <p>Oui <input type="radio">  Non <input type="radio"></p><br>
+            </fieldset>
+            <fieldset class="div3">  
+                <legend>Votre message</legend>
+                <ol>
+                    <li>Objet du message  <input type="text" placeholder="Ex: Adhésion"> </input></li><br>
+                    <li>Votre message  <textarea rows="6" placeholder="Tapez votre message ici"></textarea></li><br>
             </ol>
-        </div>
-        <button></button>
+            </fieldset>
+        </form>
+        <p></p>
+        <button>Envoyer un message</button>
 
 </body>
 </html>

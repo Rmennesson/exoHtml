@@ -1,17 +1,31 @@
-h2 {
+legend {
     font-weight: bold;
-    font-family: arial;
-    background-color: aliceblue;
-    background-size: contain;
-}
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:aquamarine;
+    padding-block: 5px;
+    margin-left: 4px;
+    margin-block: -10px;
+    line-height:15px;
+    width: fit-content;
+    border: 1px solid black;
+
+    }
+
+ fieldset {
+    line-height: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 40%;
+    
+ }   
 .div1 {
     background-color: rgb(180, 178, 178);
 }
 
 .div2 {
-    background-color: gray;
+    background-color: rgb(131, 124, 124);
 }
 
 .div3 {
-    background-color: rgb(48, 46, 46);
+    background-color: rgb(104, 99, 99);
 }
