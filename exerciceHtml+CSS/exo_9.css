@@ -29,3 +29,10 @@ legend {
 .div3 {
     background-color: rgb(104, 99, 99);
 }
+form{
+    margin: 5
+    px;
+}
+button{
+    margin: 10px;
+}

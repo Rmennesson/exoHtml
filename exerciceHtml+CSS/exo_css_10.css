@@ -1,0 +1,65 @@
+.green{
+    background-color: limegreen;
+    width: 80%;
+    height: 0.5cm;
+    
+}
+
+.blue{
+    background-color: blue;
+    width: 20%;
+    height: 0.5cm;
+    
+}
+
+.red{
+    background-color: red;
+    width: 33.33%;
+    height: 0.75cm;
+}
+
+.orange{
+    background-color: rgb(255, 115, 0);
+    width: 33.33%;
+    height: 0.75cm;
+    
+}
+
+.gblue{
+    background-color: rgb(122, 140, 187);
+    width: 33.33%;
+    height: 0.75cm;
+    justify-self: end;
+}
+
+.yellow{
+    background-color: orange;
+    width: 22.22%;
+    height: 0.75cm;
+}
+
+.turquoise{
+    background-color: rgb(13, 133, 133);
+    width: 22.22%;
+    height: 0.75cm;
+}
+
+.dorange{
+    background-color: orangered;
+    width: 22.22%;
+    height: 0.75cm;
+}
+
+.dblue{
+    background-color: rgb(32, 32, 95);
+    height: 2cm;
+}
+
+.l1{
+    display: flex;
+
+}
+
+.l2{
+    display: flex;
+    }
