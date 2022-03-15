@@ -1,7 +1,17 @@
+.img-home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
+.himg { /*image du header*/
+    width: 100%;
+    max-height: 99%;
+}    
 .h1 { /* titre h1 présent dans le haeder*/  
+    width: 100%;
     font-family: Verdana, Tahoma, sans-serif;
-    font-size: 9ch;
+    font-size: 4em;
     color: whitesmoke;
     display: flex;
     justify-content: center;
@@ -9,26 +19,34 @@
     text-align: center;
 }
 
-.himg { /*image du header*/
-    width: 100%;
-    height: auto;
-}    
-
 nav { /*barre de navigation*/
     width: 100%;
-    margin-top: 120px;
-    margin-bottom: 15px;
+    background-color: #2e487c;
+    padding-top: 15px;
+    padding-bottom: 15px;
     display: flex;
-    justify-content: center;
     justify-content: space-around;
     align-items: baseline;
 }
 
 header a { /*liens cliquable dans mon header*/
-    color: white;
+    color: rgb(241, 234, 234);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-    font-size: 40px;
+    font-size: 26px;
     
+}
+
+.band-line {
+    width: 100%;
+    text-align: center;
+    background-color: #FFB300;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: rgb(241, 234, 234);
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
 
 .div-intro { /*zone du texte d'intro*/
@@ -43,7 +61,7 @@ header a { /*liens cliquable dans mon header*/
     width: 70%;
     font-family:Verdana, Tahoma, sans-serif;
     color: white;
-    background-color: rgb(44, 124, 199);
+    background-color: #2e487c;
     padding: 15px;
    
 }
@@ -73,4 +91,40 @@ header a { /*liens cliquable dans mon header*/
     height: auto;
     margin: auto;
     
+}
+
+@media screen and (max-width: 720px)
+{
+    .h1 {
+        font-size: 2em;
+      
+    }
+    nav {
+        display:flex;
+        align-content: space-around;
+        flex-wrap: wrap;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    header a {
+        font-size: 15px
+    }
+    .band-line {
+        font-size: 18px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .intro-txt { /*texte d'intro*/
+        padding: 10px;
+        font-size: 12px;
+    }
+    .blocs{ /*blocs présent dans le conteant, sous la nav*/
+        margin: 10px;
+        border: 1px solid;
+        padding: 7px;
+        font-size: 12px
+    }
+    .h2{
+        font-size: 18px
+    }
 }
