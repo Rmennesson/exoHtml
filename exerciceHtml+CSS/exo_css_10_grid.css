@@ -1,0 +1,115 @@
+main{
+    display: grid;
+    width: 100%;
+    grid-template-areas:
+    "a a a a a b"
+    "c d d e e e"
+    "c g h h i i"
+    "k k k k k k" ;
+    grid-template-rows: 1cm 1cm 1cm 3cm; 
+    grid-template-columns: 34%  22% 11% 11% 2% 20%;
+
+}
+
+.a {
+    grid-area: a;
+    background-color: green;
+}
+.b{
+    grid-area: b;
+    background-color: blue;
+}
+
+.c{
+    grid-area: c;
+    background-color: red;
+}
+.d{
+    grid-area: d;
+    background-color: orange;
+}
+.e{
+    grid-area: e;
+    background-color: grey;
+}
+.g{
+    grid-area: g;
+    background-color: yellow;
+}
+.h{
+    grid-area: h;
+    background-color: turquoise;
+}
+.i{
+    grid-area: i;
+    background-color: orangered;
+}
+.k{
+    grid-area: k;
+    background-color: blueviolet;
+}
+
+.green{
+    background-color: limegreen;
+    width: 80%;
+    height: 0.5cm;
+    
+}
+
+.blue{
+    background-color: blue;
+    width: 20%;
+    height: 0.5cm;
+    
+}
+
+.red{
+    background-color: red;
+    width: 33.33%;
+    height: 0.75cm;
+}
+
+.orange{
+    background-color: rgb(255, 115, 0);
+    width: 33.33%;
+    height: 0.75cm;
+    
+}
+
+.gblue{
+    background-color: rgb(122, 140, 187);
+    width: 33.33%;
+    height: 0.75cm;
+    justify-self: end;
+}
+
+.yellow{
+    background-color: orange;
+    width: 22.22%;
+    height: 0.75cm;
+}
+
+.turquoise{
+    background-color: rgb(13, 133, 133);
+    width: 22.22%;
+    height: 0.75cm;
+}
+
+.dorange{
+    background-color: orangered;
+    width: 22.22%;
+    height: 0.75cm;
+}
+
+.dblue{
+    background-color: rgb(32, 32, 95);
+    height: 2cm;
+}
+
+.l1{
+    display: flex;
+}
+
+.l2{
+    display: flex;
+    }
