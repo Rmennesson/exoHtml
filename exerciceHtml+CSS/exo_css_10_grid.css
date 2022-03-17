@@ -5,7 +5,7 @@ main{
     "a a a a a b"
     "c d d e e e"
     "c g h h i i"
-    "k k k k k k" ;
+    "k k k k k k" ; 
     grid-template-rows: 1cm 1cm 1cm 3cm; 
     grid-template-columns: 34%  22% 11% 11% 2% 20%;
 
