@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro Caro JS</title>
+</head>
+
+<body>
+    <script>
+        var variable;
+        variable = "5" + "5";
+        console.log(variable);
+
+        var variable = 5 + 5;
+        console.log(variable)
+
+        var premierNombre = prompt("Entrez un nombre");
+        var deuxièmeNombre = prompt("Entrez un deuxième nombre");
+        console.log(premierNombre + deuxièmeNombre);
+        premierNombre = Number(premierNombre);
+        deuxièmeNombre = Number(deuxièmeNombre);
+        var resultat = premierNombre + deuxièmeNombre;
+        console.log(resultat);
+
+        var age = Number(prompt("Quel âge avez-vous ?"));
+        if (age < 18) {
+            console.log("vous êtes mineur");
+        }
+        else if (age == 18) {
+            console.log("Vous êtes majeure depuis cette année");
+        }
+        else {
+            console.log("Vous êtes majeur");
+        }
+
+        
+    </script>
+</body>
+
+</html>
